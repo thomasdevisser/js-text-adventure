@@ -1,0 +1,12 @@
+{
+  "name": "js-text-adventure",
+  "version": "1.0.0",
+  "description": "A JavaScript text adventure, built to train my testing skills and learn Git Actions.",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
