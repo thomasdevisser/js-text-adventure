@@ -18,10 +18,9 @@ This is where I'll keep notes on how to progress in the game.
 
 - Hagrid
 - Fred & George
-- A house elf
+- Dobby
 - Hermoine
 - Luna
-- Dumbledore
 - Vilder
 - Ron
 
