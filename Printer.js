@@ -3,7 +3,7 @@ class Printer {
     console.log(`${"*".repeat(10)} ${title} ${"*".repeat(10)} \n`);
   }
 
-  static blank_line() {
+  static blankLine() {
     console.log("");
   }
 
@@ -11,8 +11,8 @@ class Printer {
     console.log(paragraph);
   }
 
-  static current_location(location) {
-    if (location.npc) {
+  static currentLocation(location) {
+    if (Object.keys(location.npc).length !== 0) {
       return console.log(
         `You're currently at ${location.name}, together with ${location.npc.name}`
       );

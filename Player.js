@@ -1,8 +1,9 @@
 const Character = require("./Character");
 
 class Player extends Character {
-  constructor(name, items) {
+  constructor(name, items, location) {
     super(name, items);
+    this.location = location;
   }
 
   addItem(item) {
@@ -11,6 +12,14 @@ class Player extends Character {
     }
 
     this.items.push(item);
+  }
+
+  moveTo(newLocation) {
+    if (this.location.adjacent.includes(newLocation)) {
+      // Location is possible
+    }
+
+    return console.log("You can't go there from where you are.");
   }
 }
 
